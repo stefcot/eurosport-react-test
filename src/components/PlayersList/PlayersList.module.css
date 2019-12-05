@@ -1,0 +1,22 @@
+.root {
+  filter: drop-shadow(0 0 50px rgba(0,0,0,.05));
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.content {
+  max-width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.title {
+  margin: 0 auto 10px;
+}
+
+.players-list{
+  list-style: none;
+  width: 100%;
+}

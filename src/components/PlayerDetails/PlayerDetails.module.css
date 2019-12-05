@@ -1,0 +1,54 @@
+.root {
+  filter: drop-shadow(0 0 50px rgba(0,0,0,.05));
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.content {
+  max-width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 0 20px;
+}
+
+.title {
+  order: 1;
+  margin: 0;
+}
+
+.lastname {
+  text-transform: capitalize;
+}
+
+.photo  {
+  order: 0;
+  width: 100px;
+  margin: 0 20px 0 0;
+  border-radius: 3px;
+}
+
+.stats {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 20px;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #282c34;
+  text-decoration: none;
+  height: 30px;
+  border: 1px solid #282c34;
+  padding: 0 10px;
+}

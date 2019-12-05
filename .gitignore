@@ -1,0 +1,6 @@
+*DStore
+*.DStore
+.idea
+.idea/*
+dist
+node_modules

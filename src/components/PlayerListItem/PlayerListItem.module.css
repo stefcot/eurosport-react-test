@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.item:last-of-type {
+  border-bottom: 0 none;
+}
+
+.flag {
+  width: auto;
+  height: 30px;
+  margin: 0 10px 0 0;
+}
+
+.link {
+  color: #f00;
+  text-decoration: none;
+}

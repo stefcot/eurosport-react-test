@@ -1,0 +1,10 @@
+{
+  "parser": "postcss",
+  "plugins": {
+    "autoprefixer": {},
+    "postcss-import": {},
+    "postcss-preset-env": {},
+    "postcss-prettify": {},
+    "cssnano": {},
+  }
+}

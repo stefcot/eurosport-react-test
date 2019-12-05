@@ -1,0 +1,21 @@
+.root {
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.root:last-of-type {
+  border-bottom: 0 none;
+}
+
+.label {
+  font-weight: bold;
+  text-align: left;
+  width: 50%;
+}
+
+.value {
+  text-align: left;
+  width: 50%;
+}
